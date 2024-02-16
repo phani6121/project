@@ -56,6 +56,12 @@ header {
     color: orange;
 }
 
+.projects {
+    min-height: 80vh;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
 .active {
     padding: 8px 5px;
     background: black;
