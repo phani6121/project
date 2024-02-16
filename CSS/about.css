@@ -71,4 +71,58 @@ h2 {
 
 p {
     padding: 0 70px;
+    flex-flow: wrap;
+}
+
+@media (max-width: 480px) {
+    header {
+        background: transparent;
+    }
+
+    .btn {
+        background: rgb(147, 226, 147);
+        margin-left: -100px;
+    }
+
+    .side {
+        height: 570px;
+    }
+
+    p {
+        padding: 0 30px;
+        flex-flow: wrap;
+    }
+
+    h2 {
+        margin-top: 0;
+        margin-left: 33px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    header {
+        background: transparent;
+    }
+
+    .btn {
+        background: rgb(147, 226, 147);
+        margin-left: 1000px;
+        margin-left: 400px;
+    }
+
+    .side {
+        height: 300px;
+    }
+
+    p {
+        padding: 0 50px;
+        flex-flow: wrap;
+    }
+
+    h2 {
+        margin-top: 0;
+        margin-left: 47px;
+        margin-bottom: 10px;
+    }
 }

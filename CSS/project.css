@@ -66,6 +66,7 @@ header {
 .project {
     text-align: center;
     margin-top: 50px;
+    flex-flow: wrap;
 }
 
 h2 {
@@ -83,6 +84,56 @@ h4 {
 }
 
 p {
-    padding: 0 300px;
+    padding: 0 200px;
     color: black;
+}
+
+@media (max-width: 480px) {
+    header {
+        background: transparent;
+    }
+
+    .btn {
+        background: rgb(147, 226, 147);
+        margin-left: -100px;
+    }
+
+    .side {
+        height: 1050px;
+    }
+
+    .project {
+        flex-flow: wrap;
+        margin-top: 10px;
+
+    }
+
+    p {
+        padding: 0 30px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    header {
+        background: transparent;
+    }
+
+    .btn {
+        background: rgb(147, 226, 147);
+        margin-left: 1000px;
+        margin-left: 400px;
+    }
+
+    .side {
+        height: 800px;
+    }
+
+    .project {
+        flex-flow: wrap;
+        margin-top: 10px;
+    }
+
+    p {
+        padding: 0 50px;
+    }
 }

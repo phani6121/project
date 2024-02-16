@@ -34,7 +34,7 @@ header {
 
 .side {
     width: 190px;
-    height: 698px;
+    height: 630px;
     background: hsla(89, 43%, 51%, 0.3);
     margin-bottom: 0;
     padding-left: 0;
@@ -62,9 +62,20 @@ header {
     border-radius: 5px;
 }
 
+.data {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+
+}
+
 .card {
-    margin: 30px;
     background: #d5f4e6;
+    width: 30%;
+    padding: 20px;
+    margin-top: 15px;
 }
 
 .more-btn {
@@ -76,4 +87,53 @@ header {
     background: #fff;
     margin-left: 163px;
     background: #80ced6;
+}
+
+@media (max-width: 480px) {
+    header {
+        background: transparent;
+    }
+
+    .btn {
+        background: rgb(147, 226, 147);
+        margin-left: -100px;
+    }
+
+    .side {
+        height: 2050px;
+    }
+
+    .card {
+        width: 80%;
+        margin: 5px;
+    }
+
+    .more-btn {
+        margin-left: 80px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    header {
+        background: transparent;
+    }
+
+    .btn {
+        background: rgb(147, 226, 147);
+        margin-left: 1000px;
+        margin-left: 400px;
+    }
+
+    .side {
+        height: 1600px;
+    }
+
+    .card {
+        width: 90%;
+        margin: 5px;
+    }
+
+    .more-btn {
+        margin-left: 350px;
+    }
 }

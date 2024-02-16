@@ -83,3 +83,44 @@ h4 {
     font-weight: lighter;
     margin-top: 10px;
 }
+
+@media (max-width: 480px) {
+    header {
+        background: transparent;
+    }
+
+    .btn {
+        background: rgb(147, 226, 147);
+        margin-left: -100px;
+    }
+
+    .side {
+        height: 330px;
+    }
+
+    .contact {
+        margin-left: 80px;
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    header {
+        background: transparent;
+    }
+
+    .btn {
+        background: rgb(147, 226, 147);
+        margin-left: 1000px;
+        margin-left: 400px;
+    }
+
+    .side {
+        height: 350px;
+    }
+
+    .contact {
+        margin-left: 200px;
+        margin-top: 25px;
+    }
+}

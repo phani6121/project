@@ -87,3 +87,37 @@ body {
     color: #333;
 
 }
+
+@media (max-width: 480px) {
+    .login {
+        padding: 10px 10px;
+    }
+
+    .input-box input {
+        width: 70%;
+        margin-left: 60px;
+    }
+
+    .remember-forgot label input {
+        margin-left: 40px;
+    }
+
+    .remember-forgot a {
+        margin-right: 50px;
+    }
+
+    .login .btn {
+        margin-right: 40px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .login {
+        width: 600px;
+        padding: 50px 80px;
+    }
+
+    .login .btn {
+        margin-right: 60px;
+    }
+}
